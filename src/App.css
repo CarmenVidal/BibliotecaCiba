@@ -43,7 +43,7 @@
   justify-content:space-between;
   
 }
-.containerPrincipal .logoLibro img{
+.containerPrincipal .logoLibro{
   width: 100px;
   height: 100px;
 }
