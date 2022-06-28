@@ -59,19 +59,44 @@
 }
 .containerImagen{
   width: 100%;
-  height: 100%;
+  height: 70%;
   overflow: hidden;
 }
 .imagen{
-  width: 45%;
-  height:45%;
+  width: 100%;
+  height:100%;
   object-fit: cover;
   
 }
 .containerTexto{
-  display:contents;
+  display:flex;
+  flex-direction: column;
   color: rgb(94, 255, 0);
   align-content: space-between;
   justify-content: center;
   font-family: fantasy;
+}
+.containerTexto p{
+  margin: 0%;
+  
+}
+.containerIcono{
+ display: flex;
+justify-content: space-between;
+}
+.icono-estrella{
+  width: 20px;
+}
+.icono-corazon{
+  width: 20px;
+}
+
+
+.icono-editar{
+  width: 20px;
+ 
+
+}
+.icono-basura{
+  width: 20px;
 }
