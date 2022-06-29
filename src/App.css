@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #34282e;
+  background-color: #350326;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61a4fb;
+  color: #55033a;
 }
 
 @keyframes App-logo-spin {
@@ -54,6 +54,13 @@
 .texto{
  margin-right: 10px;
  color: #8a275d;
+
+}
+.texto{
+ margin-right: 50px;
+ font-family: 'Courier New', Courier, monospace;
+ color: #ee0caa;
+ font-size: x-small;
  
 
 }
@@ -63,14 +70,23 @@
 }
 .button text{
   
-  background-color: #8a275d;
+ background-color: #8a275d;
+ font-family: 'Times New Roman', Times, serif;
+ width: 20px;
+}
+ .start{
+ background-color: #8a275d;
 }
 .containerBook{
   width: 300px;
   height: 300px;
   border: 1px solid black;
   margin-top: 20px;
+
  margin-left: 10px;
+
+  margin-left: 10px;
+
 }
 .containerImagen{
   width: 100%;
@@ -86,7 +102,7 @@
 .containerTexto{
   display:flex;
   flex-direction: column;
-  color: rgb(47, 0, 255);
+  color: rgb(252, 89, 244);
   align-content: space-between;
   justify-content: center;
   font-family: fantasy;
@@ -103,18 +119,39 @@ display: flex;
   width: 15px;
 }
 .icono-ojo{
-  width: 20px;
+ width: 20px;
+}
+.iconos{
+  display: flex;
+  justify-content: space-between;
+}
+.containerIcono1{
+ display: flex;
+
+
 }
 .icono-estrella{
   width: 20px;
 }
+
 .containerIcono2{
  display: flex;
  flex-direction: row-reverse;
 
 
 }
+.icono-corazon{
+  width: 15px;
+}
+.icono-ojo{
+  width: 20px;
 
+}
+
+.containerIcono2{
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 .icono-editar{
   width: 20px;
@@ -124,6 +161,7 @@ display: flex;
 .icono-basura{
   width: 20px;
 }
+
 .Iconos{
   display: flex;
  justify-content: space-between;
