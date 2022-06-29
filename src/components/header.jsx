@@ -8,6 +8,7 @@ function Header() {
         </div>
         <div className='texto'>
             <h1>Home</h1>
+            
         </div>
         
 

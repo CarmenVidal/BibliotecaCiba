@@ -6,8 +6,18 @@ import Book from '../components/Book'
 function Books() {
   return (
     <>
-    <Header/>
-    <Book/>
+    
+      <Header/>
+      <div className='bookList'>
+          <Book/>
+          <Book/>
+          <Book/>
+          <Book/>
+          <Book/> 
+          <Book/>
+          <Book/>
+          <Book/>
+     </div>
     </>
   )
 }
