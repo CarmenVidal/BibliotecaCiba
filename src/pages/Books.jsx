@@ -7,7 +7,23 @@ function Books() {
   return (
     <>
     <Header/>
-    <Book/>
+    <div className='bookList'>
+        <Book/>
+        <Book/>
+       
+        <Book/>
+        
+        <Book/>
+        <Book/>
+        <Book/>
+        <Book/>
+        
+        <Book/>
+        <Book/>
+        <Book/>
+        <Book/>
+        <Book/>
+    </div>
     </>
   )
 }

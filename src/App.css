@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #350326;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(248, 179, 231);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #55033a;
 }
 
 @keyframes App-logo-spin {
@@ -39,27 +39,43 @@
 }
 .containerPrincipal{
   display: flex; 
-  background-color: rgb(214, 207, 207);
+  background-color: rgb(250, 135, 215);
   justify-content:space-between;
   
 }
 .containerPrincipal .logoLibro img{
   width: 100px;
   height: 100px;
+  margin-left: 20px;
 
 }
 .texto{
  margin-right: 50px;
+ font-family: 'Courier New', Courier, monospace;
+ color: #ee0caa;
+ font-size: x-small;
 
+ 
+
+}
+.containerHome{
+  color: #8a275d;
+ font-family: 'Times New Roman', Times, serif;
+ width: 20px;
+}
+ .start{
+ background-color: #8a275d;
 }
 .containerBook{
   width: 300px;
   height: 300px;
   border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 .containerImagen{
   width: 100%;
-  height: 70%;
+  height: 65%;
   overflow: hidden;
 }
 .imagen{
@@ -71,7 +87,7 @@
 .containerTexto{
   display:flex;
   flex-direction: column;
-  color: rgb(94, 255, 0);
+  color: rgb(252, 89, 244);
   align-content: space-between;
   justify-content: center;
   font-family: fantasy;
@@ -80,17 +96,28 @@
   margin: 0%;
   
 }
-.containerIcono{
+.iconos{
+  display: flex;
+  justify-content: space-between;
+}
+.containerIcono1{
  display: flex;
-justify-content: space-between;
+
 }
 .icono-estrella{
   width: 20px;
 }
 .icono-corazon{
+  width: 15px;
+}
+.icono-ojo{
   width: 20px;
 }
 
+.containerIcono2{
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 .icono-editar{
   width: 20px;
@@ -99,4 +126,8 @@ justify-content: space-between;
 }
 .icono-basura{
   width: 20px;
+}
+.bookList{
+  display: flex;
+  flex-wrap: wrap;
 }

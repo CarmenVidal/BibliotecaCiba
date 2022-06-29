@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/img/imglibro.png"
+import logo from "../assets/img/icono-libro.png"
 function Header() {
   return (
     <div className='containerPrincipal'>
