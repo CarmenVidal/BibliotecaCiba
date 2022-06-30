@@ -9,7 +9,7 @@ function Header() {
         <div className='textoHeader'>
             <h1>HOME</h1>
             <h2>CREATE</h2>
-            <h3>REeGISTRATION</h3>
+            <h3>REGISTRATION</h3>
         </div>
         
 

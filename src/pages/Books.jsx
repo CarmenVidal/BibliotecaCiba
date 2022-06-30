@@ -1,16 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Header from '../components/Header'
 import Book from '../components/Book'
 import BooksData from '../assets/data/booksData'
 
+
 function Books() {
-  console.log(BooksData)
+  const [books,setBooks]= useState(BooksData);
+
+  console.log('bo',books)
   return (
     <>
     <Header/>
     <div className='bookList'>
-        <Book 
-        BooksData={BooksData}/>
+        <Book listaBook={books}/>
         <Book/>
         <Book/>
         
