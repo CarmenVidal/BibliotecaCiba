@@ -12,20 +12,9 @@ function Books() {
     <>
     <Header/>
     <div className='bookList'>
-        <Book listaBook={books}/>
-        <Book/>
-        <Book/>
+        <Book data={books}/>
         
-        <Book/>
-        <Book/>
-        <Book/>
-        <Book/>
-        
-        <Book/>
-        <Book/>
-        <Book/>
-        <Book/>
-        <Book/>
+       
     </div>
     </>
   )
