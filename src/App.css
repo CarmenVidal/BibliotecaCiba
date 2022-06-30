@@ -49,11 +49,14 @@
   margin-left: 20px;
 
 }
-.texto{
+.textoHeader{
  margin-right: 50px;
  font-family: 'Courier New', Courier, monospace;
  color: #ee0caa;
  font-size: x-small;
+ display: flex;
+ align-items: center;
+
 
  
 

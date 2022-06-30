@@ -6,8 +6,10 @@ function Header() {
         <div className="logoLibro">
             <img src={logo} alt="logo" />
         </div>
-        <div className='texto'>
-            <h1>Home</h1>
+        <div className='textoHeader'>
+            <h1>HOME</h1>
+            <h2>CREATE</h2>
+            <h3>REGISTRATION</h3>
         </div>
         
 
