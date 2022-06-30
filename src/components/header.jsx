@@ -6,7 +6,7 @@ function Header() {
         <div className="logoLibro">
             <img src={logo} alt="logo" />
         </div>
-        <div className='texto'>
+        <div className='textoHeader'>
             <h1>Home</h1>
             
         </div>

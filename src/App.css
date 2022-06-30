@@ -51,29 +51,17 @@
 
 }
 
-.texto{
+.textoHeader{
  margin-right: 10px;
  color: #8a275d;
 
 }
-.texto{
- margin-right: 50px;
- font-family: 'Courier New', Courier, monospace;
- color: #ee0caa;
- font-size: x-small;
- 
 
-}
 .containerHome{
   color: #8a275d;
   font-family: 'Times New Roman', Times, serif;
 }
-.button text{
-  
- background-color: #8a275d;
- font-family: 'Times New Roman', Times, serif;
- width: 20px;
-}
+
  .start{
  background-color: #8a275d;
 }
