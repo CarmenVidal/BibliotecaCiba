@@ -4,7 +4,8 @@ import editar from '../assets/img/icono-editar.png'
 import basura from '../assets/img/icono-basura.png'
 import corazon from '../assets/img/icono-corazon.png'
 import ojo from '../assets/img/icono-ojo.png'
-function Book() {
+function Book(props) {
+  console.log(props)
   return (
   <>
     <div className='containerBook'>
