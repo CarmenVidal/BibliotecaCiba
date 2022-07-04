@@ -10,7 +10,7 @@ function Header() {
         </div>
         <div className='textoHeader'>
            < Link to = "/"><button className='link'>HOME</button></Link>
-           < Link to = "/"><button className='link'>CREATE</button></Link>
+           < Link to = "/form"><button className='link'>CREATE</button></Link>
            < Link to = "/"><button className='link'>REGISTRATION</button></Link>
         </div>
         
