@@ -50,16 +50,19 @@
   
 
 }
-
-
 .textoHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.link{
  margin-right: 5px;
- font-size: 10px;
+ font-size: 25px;
  color: #8a275d;
- display: flex;
- justify-content: space-between;
-
-
+ border:none;
+ background-color: transparent;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .containerHome{

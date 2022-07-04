@@ -7,9 +7,9 @@ function Header() {
             <img src={logo} alt="logo" />
         </div>
         <div className='textoHeader'>
-            <h1>HOME</h1>
-            <h2>CREATE</h2>
-            <h3>REGISTRATION</h3>
+            <button className='link'>HOME</button>
+            <button className='link'>CREATE</button>
+            <button className='link'>REGISTRATION</button>
         </div>
         
 
