@@ -49,16 +49,52 @@
             "imagen":"https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg"
         },
         {
-            "id": 4,
-            "nombrelibro":"mi viaje sin ti",
-            "nombreautor":"alejandro sequera",
-            "año": 2017,
-            "genero": "novela romantica",
+            "id": 5,
+            "nombrelibro":"Malas Mujeres",
+            "nombreautor":"Maria Hesse",
+            "año": 2022,
+            "genero": "Biografia y autografia",
             "idioma":"español",
-            "editorial":"CreateSpace Independent Publishing Platform",
-            "isbn": 1981720707,
-            "descripcion": "Mi viaje sin ti es el viaje de la búsqueda, del anhelo de respuesta, de la reflexión, y sobre todo... del encuentro.¿Como enfrentas el amor y la muerte al mismo tiempo? El libro que tienes en tus manos es la travesía que todos debemos emprender hacía nuestro interior. Descubriendo la eternidad de los instantes y la desnudez del alma. Para entender que cada final representa un nuevo comienzo y la oportunidad de trascender.",
-            "imagen":"https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg"
+            "editorial":" LUMEN; 001 edición (1 febrero 2022)",
+            "isbn":  8426409690 ,
+            "descripcion": "En su personalísima versión, María Hesse da una vuelta de tuerca a esas princesas pasivas, brujas perversas, malas madres, femmes fatales, locas pasionales y secundarias perfectas, y, de Madame Bovary a Sarah Connor, de Juana la Loca a Yoko Ono o de Helena de Troya a Monica Lewinsky, reivindica la necesidad de encontrar otros referentes, nuevas lecturas de la Historia e inspiración para ser simplemente mujeres en el mundo en que vivimos.",
+            "imagen":"https://m.media-amazon.com/images/I/91Cq2fUS2OL._AC_UL320_.jpg"
+        },
+        {
+            "id": 6,
+            "nombrelibro":"Violeta",
+            "nombreautor":"Isabel Allende",
+            "año": 2022,
+            "genero": "Biografia y autografia",
+            "idioma":"español",
+            "editorial":"PLAZA & JANES EDITORES",
+            "isbn":9788401027475,
+            "descripcion": "Violeta viene al mundo un tormentoso día de 1920, siendo la primera niña de una familia de cinco bulliciosos hermanos. Desde el principio su vida estará marcada por acontecimientos extraordinarios, pues todavía se sienten las ondas expansivas de la Gran Guerra cuando la gripe española llega a las orillas de su país sudamericano natal, casi en el momento exacto de su nacimiento",
+            "imagen":"https://images-na.ssl-images-amazon.com/images/I/716GaLQav8S.jpg"
+        },
+        {
+            "id": 7,
+            "nombrelibro":"La señora March",
+            "nombreautor":"virginia feito",
+            "año": 2022,
+            "genero": "Biografia y autografia",
+            "idioma":"CASTELLANO",
+            "editorial":"LUMEN",
+            "isbn":9788426409652,
+            "descripcion": "Es este descubrimiento tardío y casi casual que la señora March hace de la señora March lo que más le ha interesado a esta escribidora de la justamente titulada así, La señora March , primera novela de Virginia Feito (Madrid, 1988), aclamada en EE.UU. tras su publicación en inglés, idioma en el que fue escrita, y en castellano por Lumen.",
+            "imagen":"https://imagessl2.casadellibro.com/a/l/t7/52/9788426409652.jpg"
+        },
+        {
+            "id": 8,
+            "nombrelibro":"Las Madres(La Novia Gitana 4)",
+            "nombreautor":"Carmen Mola",
+            "año": 2022,
+            "genero": "Biografia y autografia",
+            "idioma":"CASTELLANO",
+            "editorial":"ALFAGUARA",
+            "isbn":9788420456027,
+            "descripcion": " inspectora Elena Blanco atraviesa el depósito de la Grúa Municipal Mediodía II de Madrid hasta llegar a una vieja furgoneta que expele un olor putrefacto. Dentro está el cadáver de un hombre atado a una silla, con un burdo costurón que asciende del pubis al abdomen. Los primeros resultados de la autopsia aclaran que a este toxicómano reincidente le arrancaron algunos órganos y le colocaron en el vientre un feto de casi siete meses. ",
+            "imagen":"https://static.fnac-static.com/multimedia/Images/ES/NR/0b/cf/74/7655179/1507-1.jpg"
         }
     ]
 }
