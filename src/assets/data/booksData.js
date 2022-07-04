@@ -35,6 +35,18 @@
             "isbn": 9876543987,
             "descripcion": "Para adentrarnos en El Poder del Ahora tendremos que dejar atrás nuestra mente analítica y su falso yo, el ego. Desde la primera página de este extraordinario libro nos elevamos a una mayor altura y respiramos un aire más ligero. Conectamos con la esencia indestructible de nuestro Ser: “la Vida Una omnipresente, eterna, que está más allá de la miríada de formas de vida sujetas al nacimiento y a la muerte”. Aunque el viaje es todo un reto, Eckhart Tolle nos guía usando un lenguaje simple y un sencillo formato de pregunta-respuesta",
             "imagen":"https://m.media-amazon.com/images/P/B006IBR7J2.01._SCLZZZZZZZ_SX500_.jpg"
+        },
+        {
+            "id": 4,
+            "nombrelibro":"mi viaje sin ti",
+            "nombreautor":"alejandro sequera",
+            "año": 2017,
+            "genero": "novela romantica",
+            "idioma":"español",
+            "editorial":"CreateSpace Independent Publishing Platform",
+            "isbn": 1981720707,
+            "descripcion": "Mi viaje sin ti es el viaje de la búsqueda, del anhelo de respuesta, de la reflexión, y sobre todo... del encuentro.¿Como enfrentas el amor y la muerte al mismo tiempo? El libro que tienes en tus manos es la travesía que todos debemos emprender hacía nuestro interior. Descubriendo la eternidad de los instantes y la desnudez del alma. Para entender que cada final representa un nuevo comienzo y la oportunidad de trascender.",
+            "imagen":"https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg"
         }
     ]
 
