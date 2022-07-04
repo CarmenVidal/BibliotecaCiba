@@ -4,16 +4,15 @@ import editar from '../assets/img/icono-editar.png'
 import basura from '../assets/img/icono-basura.png'
 import corazon from '../assets/img/icono-corazon.png'
 import ojo from '../assets/img/icono-ojo.png'
-function Book(props) {
-  const{data}=props
+function Book({book}) {
+  
   
   return (
   <>
-  {
-   data.map((book) =>{
-    return <div className='containerBook' key={book.id}>
+  
+     <div className='containerBook'>
         <div className='containerImagen'>
-              <img className='imagen' src="https://tse2.explicit.bing.net/th?id=OIP.Dwqy4HA5fQ9XD7J4tBq_7QHaJD&pid=Api&P=0&w=160&h=196" alt="imagen-libro" />
+              <img className='imagen' src={book.imagen} alt={book.nombrelibro}/>
         </div>
       <div className='iconos'>
           <div className='containerIcono1'>
@@ -50,16 +49,16 @@ function Book(props) {
        
 
         <div className='containerTexto'>
-          <p>titulo del libro</p>
-          <p>autor</p> 
-          <p>año</p>
+          <p> {book.nombrelibro}</p>
+          <p>{book.nombreautor}</p> 
+          <p>{book.año}</p>
         </div>
 
 
     </div>
    
-   })
-  }
+   
+  
     
 
   </>

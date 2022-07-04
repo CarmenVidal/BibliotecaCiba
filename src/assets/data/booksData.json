@@ -1,5 +1,5 @@
-
-    const BooksData = [
+{
+     "BooksData" : [
         {
             "id": 1,
             "nombrelibro":"Alchemist",
@@ -47,7 +47,18 @@
             "isbn": 1981720707,
             "descripcion": "Mi viaje sin ti es el viaje de la búsqueda, del anhelo de respuesta, de la reflexión, y sobre todo... del encuentro.¿Como enfrentas el amor y la muerte al mismo tiempo? El libro que tienes en tus manos es la travesía que todos debemos emprender hacía nuestro interior. Descubriendo la eternidad de los instantes y la desnudez del alma. Para entender que cada final representa un nuevo comienzo y la oportunidad de trascender.",
             "imagen":"https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg"
+        },
+        {
+            "id": 4,
+            "nombrelibro":"mi viaje sin ti",
+            "nombreautor":"alejandro sequera",
+            "año": 2017,
+            "genero": "novela romantica",
+            "idioma":"español",
+            "editorial":"CreateSpace Independent Publishing Platform",
+            "isbn": 1981720707,
+            "descripcion": "Mi viaje sin ti es el viaje de la búsqueda, del anhelo de respuesta, de la reflexión, y sobre todo... del encuentro.¿Como enfrentas el amor y la muerte al mismo tiempo? El libro que tienes en tus manos es la travesía que todos debemos emprender hacía nuestro interior. Descubriendo la eternidad de los instantes y la desnudez del alma. Para entender que cada final representa un nuevo comienzo y la oportunidad de trascender.",
+            "imagen":"https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg"
         }
     ]
-
-    export default BooksData
+}

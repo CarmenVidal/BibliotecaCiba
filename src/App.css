@@ -53,8 +53,12 @@
 
 
 .textoHeader{
- margin-right: 10px;
+ margin-right: 5px;
+ font-size: 10px;
  color: #8a275d;
+ display: flex;
+ justify-content: space-between;
+
 
 }
 

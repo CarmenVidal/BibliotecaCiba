@@ -1,18 +1,21 @@
-import React, {useState} from 'react'
+import React  from 'react'
 import Header from '../components/Header'
 import Book from '../components/Book'
-import BooksData from '../assets/data/booksData'
+import BooksData from '../assets/data/booksData.json'
 
 
 function Books() {
-  const [books,setBooks]= useState(BooksData);
-
-  console.log('bo',books)
+ 
   return (
     <>
     <Header/>
     <div className='bookList'>
-        <Book data={books}/>
+      {
+        BooksData.BooksData.map((book,index)=>(
+          <Book book={book}key={index}/>
+        ))
+      }
+      
         
        
     </div>
