@@ -5,11 +5,12 @@ function formulario() {
     // <div>formulario</div>
    <form>
     <label>
-        Name:
-        <input type="text" name="name" />
+        Title:
+        <input type="title" name="title" />
 
     </label>
-    <input type="imageUrl" value ="imageUrl" />
+        ImageUrl:
+    <input type="img" name ="img" />
 
  </form>
 
