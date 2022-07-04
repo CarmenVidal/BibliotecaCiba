@@ -63,9 +63,14 @@
  border:none;
  background-color: transparent;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .containerHome{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
   color: #8a275d;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -100,14 +105,16 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .containerTexto{
   display:flex;
+
   flex-direction: column;
   color: rgb(252, 89, 244);
   align-content: space-between;
   justify-content: center;
-  font-family: fantasy;
+  font-family: 'Courier New', Courier, monospace;
 }
 .containerTexto p{
  margin: 0%;
+ 
   
 }
 .containerIcono1{
