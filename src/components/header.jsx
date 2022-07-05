@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from "../assets/img/icono-libro.png"
 function Header() {
   return (
@@ -7,9 +8,9 @@ function Header() {
             <img src={logo} alt="logo" />
         </div>
         <div className='textoHeader'>
-            <button className='link'>HOME</button>
-            <button className='link'>CREATE</button>
-            <button className='link'>REGISTRATION</button>
+          <Link to= '/'> <button className='link'>HOME</button></Link>
+          <Link to= '/'>  <button className='link'>CREATE</button></Link>
+          <Link to= '/'>  <button className='link'>REGISTRATION</button></Link>
         </div>
         
 

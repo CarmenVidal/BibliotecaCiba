@@ -58,6 +58,7 @@
 
 .link{
  margin-right: 5px;
+align-items: center;
  font-size: 25px;
  color: #8a275d;
  border:none;
@@ -66,6 +67,10 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .containerHome{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
   color: #8a275d;
   font-family: 'Times New Roman', Times, serif;
 }
