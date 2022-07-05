@@ -6,6 +6,7 @@ import corazon from '../assets/img/icono-corazon.png'
 import ojo from '../assets/img/icono-ojo.png'
 function Book({book}) {
   
+
   
   return (
   <>

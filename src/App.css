@@ -38,15 +38,15 @@
 
 }
 .containerPrincipal{
-  display: flex; 
-  background-color: rgb(250, 135, 215);
-  justify-content:space-between;
+   display: flex; 
+   background-color: rgb(250, 135, 215);
+   justify-content:space-between;
   
 }
 .containerPrincipal .logoLibro img{
-  width: 100px;
-  height: 100px;
-  margin-left: 20px;
+   width: 100px;
+   height: 100px;
+   margin-left: 20px;
   
 
 }
@@ -57,26 +57,26 @@
 
 
 .link{
- margin-right: 5px;
-align-items: center;
- font-size: 25px;
- color: #8a275d;
- border:none;
- background-color: transparent;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   display: block;
+   font-size: 25px;
+   color: #8a275d;
+   border:none;
+   background-color: transparent;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .containerHome{
-  display: flex;
-  flex-direction: column;
-  height: 60vh;
-  justify-content: center;
-  color: #8a275d;
-  font-family: 'Times New Roman', Times, serif;
+   display: flex;
+   flex-direction: column;
+   height: 60vh;
+   justify-content: center;
+   color: #8a275d;
+   font-family: 'Times New Roman', Times, serif;
 }
 
  .start{
- background-color: #8a275d;
+   background-color: #8a275d;
 }
 .containerBook{
   width: 300px;
@@ -104,36 +104,39 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
 }
 .containerTexto{
-  display:flex;
+   display:flex;
   flex-direction: column;
   color: rgb(252, 89, 244);
   align-content: space-between;
   justify-content: center;
-  font-family: fantasy;
+  font-family: 'Courier New', Courier, monospace;
 }
 .containerTexto p{
  margin: 0%;
-  
-}
-.containerIcono1{
-display: flex;
  
 }
+
+.containerIcono1{
+  display: flex;
+ 
+}
+
 .icono-corazon{
   width: 15px;
 }
+
 .icono-ojo{
- width: 20px;
+  width: 20px;
 }
+
 .iconos{
   display: flex;
   justify-content: space-between;
 }
 .containerIcono1{
  display: flex;
-
-
 }
+
 .icono-estrella{
   width: 20px;
 }
@@ -141,9 +144,8 @@ display: flex;
 .containerIcono2{
  display: flex;
  flex-direction: row-reverse;
+} 
 
-
-}
 .icono-corazon{
   width: 15px;
 }
