@@ -57,7 +57,8 @@
 
 
 .link{
- margin-right: 5px;
+  display: block;
+ 
  font-size: 25px;
  color: #8a275d;
  border:none;
