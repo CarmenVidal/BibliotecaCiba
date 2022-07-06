@@ -1,14 +1,17 @@
 
-import axios from 'axios'
+import axios from 'axios';
 
 
 export const services = () => {
+  
 
 
+    const apiLaCiba= "https://sheetlabs.com/MELQ/catalog"
+    const getBooks=async () => {
+      const res=await axios.get(apiLaCiba);
+        return res 
 
-    const apiLaCiba= "https://sheetdb.io/api/v1/dqmvr2e2rl6ru"
-    const getBooks= () => {
-        return axios.get(apiLaCiba)
+        
 
     }
   return {

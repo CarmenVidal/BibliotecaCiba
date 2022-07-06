@@ -1,33 +1,32 @@
-import React, { useState }  from 'react'
-import Header from '../components/Header'
-import Book from '../components/Book'
-import BooksData from '../assets/data/booksData.json'
-import {services} from '../services/services'
+ import React, {  useeffect,useState }  from 'react'
+ import Header from '../components/Header'
+ import Book from '../components/Book'
+// import BooksData from '../assets/data/booksData.json'
+//  import {services} from '../services/services'
 
 
-function Books() {
+ function Books() {
  
-const [data, setData] = useState([]);
+ const [data, setData] = useState([]);
 
-  const api=services();
-  api.getBooks().then((resp)=>{
-    setData(resp.data)
-  })
+  //  const api=services();
+   useeffect(()=> {
+    fetch ("https://sheetlabs.com/MELQ/catalog")
+    .then(apiLaCiba => apiLaCiba.json())
+    .then(data =>setData(data.Book))
+   
+   },[])
+    
+ return (
+     <>
+     <Header/>
+     <div className='bookList'>
 
-  //console.log(data);
-
-
-
-  return (
-    <>
-    <Header/>
-    <div className='bookList'>
-
-    {
-        data.map((book,index)=>(
-          <Book book={book}key={index}/>
-        ))
-      }
+     {
+         data.map((book,index)=>(
+           <Book book={book}key={index}/>
+         ))
+       }
     
       {/* {
         BooksData.BooksData.map((book,index)=>(
@@ -37,9 +36,9 @@ const [data, setData] = useState([]);
       
         
        
-    </div>
-    </>
-  )
-}
+     </div>
+     </>
+   )
+ }
+ export default Books
 
-export default Books
