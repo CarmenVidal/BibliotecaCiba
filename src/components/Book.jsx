@@ -50,8 +50,8 @@ function Book({book}) {
        
 
         <div className='containerTexto'>
-          <p> {book.nombrelibro}</p>
-          <p>{book.nombreautor}</p> 
+          <p> {book.nombrelibrol}</p>
+          <p>{book.nombrelibro}</p> 
           <p>{book.año}</p>
         </div>
 
