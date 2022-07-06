@@ -95,6 +95,20 @@
             "isbn":9788420456027,
             "descripcion": " inspectora Elena Blanco atraviesa el depósito de la Grúa Municipal Mediodía II de Madrid hasta llegar a una vieja furgoneta que expele un olor putrefacto. Dentro está el cadáver de un hombre atado a una silla, con un burdo costurón que asciende del pubis al abdomen. Los primeros resultados de la autopsia aclaran que a este toxicómano reincidente le arrancaron algunos órganos y le colocaron en el vientre un feto de casi siete meses. ",
             "imagen":"https://static.fnac-static.com/multimedia/Images/ES/NR/0b/cf/74/7655179/1507-1.jpg"
+
+        },
+        {
+            "id": 9,
+            "nombrelibro":"la ridicula idea de no volver a  verte",
+            "nombreautor":"Rosa montero",
+            "año": 2014,
+            "genero": "ficcion literaria ",
+            "idioma":"español",
+            "editorial":"planeta",
+            "isbn":  8432222712,
+            "descripcion":" Son páginas que hablan de la superación del dolor, de las relaciones entre hombres y mujeres, del esplendor del sexo, de la buena muerte y de la bella vida, de la ciencia y de la ignorancia, de la fuerza salvadora de la literatura y de la sabiduría de quienes aprenden a disfrutar de la existencia con plenitud y con ligereza.",
+            "imagen": "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41GWNcxx-iL._SX327_BO1%2C204%2C203%2C200_.jpg"   
         }
     ]
 }
+
