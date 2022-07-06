@@ -1,39 +1,37 @@
-import React, { useState }  from 'react'
+import React, { useEffect, useState }  from 'react'
 import Header from '../components/Header'
 import Book from '../components/Book'
-import BooksData from '../assets/data/booksData.json'
-import {services} from '../services/services'
+//import {services} from '../services/services'
 
 
 function Books() {
  
-const [data, setData] = useState([]);
+const [booksData, setBooksData] = useState([]);
+//const api=services();
 
-  const api=services();
-  api.getBooks().then((resp)=>{
-    setData(resp.data)
-  })
-
-  //console.log(data);
-
-
-
-  return (
+    useEffect(() => {
+      fetch("https://sheetlabs.com/MELQ/catalog")
+      .then(response => response.json())
+       .then(data => setBooksData(data))
+    },[])
+    
+  
+    
+    return (
     <>
     <Header/>
-    <div className='bookList'>
-
+    <div className='bookList'> 
     {
-        data.map((book,index)=>(
-          <Book book={book}key={index}/>
-        ))
+         
       }
+      
+
     
-      {/* {
-        BooksData.BooksData.map((book,index)=>(
+      {
+        booksData.map((book,index)=>(
           <Book book={book}key={index}/>
         ))
-      }  */}
+     }
       
         
        

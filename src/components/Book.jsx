@@ -13,7 +13,7 @@ function Book({book}) {
   
      <div className='containerBook'>
         <div className='containerImagen'>
-              <img className='imagen' src={book.imagen} alt={book.nombrelibro}/>
+              <img className='imagen' src={book.imagen} alt={book.titol}/>
         </div>
       <div className='iconos'>
           <div className='containerIcono1'>
@@ -50,9 +50,9 @@ function Book({book}) {
        
 
         <div className='containerTexto'>
-          <p> {book.nombrelibro}</p>
-          <p>{book.nombreautor}</p> 
-          <p>{book.año}</p>
+          <p> {book.titol}</p>
+          <p>{book.autoria}</p> 
+          <p>{book.isbn}</p>
         </div>
 
 
