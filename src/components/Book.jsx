@@ -4,16 +4,17 @@ import editar from '../assets/img/icono-editar.png'
 import basura from '../assets/img/icono-basura.png'
 import corazon from '../assets/img/icono-corazon.png'
 import ojo from '../assets/img/icono-ojo.png'
-function Book({book}) {
-  
 
-  
-  return (
+
+
+function Book({book}) {
+ 
+return (
   <>
   
      <div className='containerBook'>
         <div className='containerImagen'>
-              <img className='imagen' src={book.imagen} alt={book.nombrelibro}/>
+              <img className='imagen' src={book.imagen} alt={book.titol}/>
         </div>
       <div className='iconos'>
           <div className='containerIcono1'>
@@ -50,9 +51,9 @@ function Book({book}) {
        
 
         <div className='containerTexto'>
-          <p> {book.nombrelibrol}</p>
-          <p>{book.nombrelibro}</p> 
-          <p>{book.año}</p>
+          <p> {book.titol}</p>
+          <p>{book.autoria}</p> 
+          <p>{book.isbn}</p>
         </div>
 
 
