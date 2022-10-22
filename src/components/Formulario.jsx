@@ -3,10 +3,11 @@ import React from 'react'
 function formulario() {
   return (
     // <div>formulario</div>
-   <form>
+   <form className='formulario'>
     <label>
         Title:
         <input type="title" name="title" />
+        <br />
 
     </label>
         ImageUrl:
